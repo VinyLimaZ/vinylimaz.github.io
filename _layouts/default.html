@@ -16,7 +16,7 @@
         </a>
         <h2 class="description">{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
-      <nav class="container">
+      <nav>
         <ul>
           <li><a {% if page.url == '/' %} class="active" {% endif %} href="/">Home</a></li>
           <li><a {% if page.url == '/about' %} class="active" {% endif %} href="/about">About me</a></li>
@@ -41,7 +41,7 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', {{ site.google_analytics }});
+        gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
   </body>

@@ -1,9 +1,9 @@
 nav {
   width: 100%;
+  padding: 0 49px;
   background: #171717;
   height: 50px;
-  margin-bottom: 5px;
-  margin-top: 70px;
+  text-align: center;
 }
 
 nav.fixed {
@@ -17,12 +17,12 @@ nav ul li {
   float: left;
   border-right: 1px solid #777;
   list-style: none;
+  text-align: center;
 }
 
 nav ul li a {
   display: block;
   color: white;
-  text-align: center;
   text-decoration: none;
   padding: 14px 16px;
 }
@@ -43,10 +43,39 @@ nav ul li::hover {
   background-color: #000;
 }
 
+nav h1 {
+  margin-top: -19px !important;
+  animation: fix-anim 1s forwards;
+}
+
 @keyframes cursor-anim {
   0%   { color: #b4e952; }
   25%  { color: #b4e952; }
   50%  { color: #b4e952; }
   75%  { color: white;   }
   100% { color: white;   }
+}
+
+@keyframes fix-anim {
+  from {
+    transform: scale(0.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    padding: 0;
+  }
+
+  nav.fixed {
+    position: fixed;
+    top: 0;
+  }
+
+  nav h1 {
+    display: none;
+  }
 }
