@@ -34,7 +34,6 @@ nav ul li a.active {
 
 nav ul li a.active::after {
   content: '█';
-  font-size: 1.2em;
   color: white;
   margin-left: 2px;
   animation: cursor-anim 1s infinite;
