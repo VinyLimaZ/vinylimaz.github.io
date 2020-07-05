@@ -68,6 +68,8 @@ nav h1 {
 @media (max-width: 700px) {
   nav {
     padding: 0;
+    text-align: left;
+    vertical-align: middle;
   }
 
   nav.fixed {
@@ -76,6 +78,6 @@ nav h1 {
   }
 
   nav h1 {
-    display: none;
+    font-size: 18px;
   }
 }
