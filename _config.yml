@@ -1,5 +1,8 @@
 title: VinyLimaZ
-description: creating bugs ~ fixing some of them
+description: developing bugs 🐞 ~ fixing some of its
 google_analytics: 'UA-171653743-1'
 theme: jekyll-theme-hacker
 baseurl: '/'
+
+plugins:
+  - jekyll-postcss
