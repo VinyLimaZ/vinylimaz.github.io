@@ -1,0 +1,12 @@
+div#nav-mobile-items.deactive {
+  display: none;
+}
+
+div#nav-mobile-items.active {
+  animation: open-anim .3s forwards;
+}
+
+@keyframes open-anim {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
