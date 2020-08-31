@@ -1,4 +1,4 @@
 module.exports = {
   parser: 'postcss-scss',
-  plugins: [require('tailwindcss')]
+  plugins: [require('tailwindcss'), require('autoprefixer')]
 }
