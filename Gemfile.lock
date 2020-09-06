@@ -114,6 +114,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer (~> 3.0)
+  jekyll
   jekyll-feed (~> 0.6)
   jekyll-postcss
   jekyll-theme-hacker!
