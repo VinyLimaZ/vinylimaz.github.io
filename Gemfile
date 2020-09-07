@@ -3,7 +3,11 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'jekyll-feed', "~> 0.6"
-gem 'jekyll-postcss'
+
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem "jekyll-seo-tag"
+  gem "jekyll-postcss"
+end
 
 gemspec
