@@ -2,6 +2,13 @@
 ---
 
 @import "jekyll-theme-hacker";
+
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
 @import "main";
 @import "navbar";
 @import "navbar_mobile";
