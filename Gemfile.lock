@@ -293,10 +293,8 @@ DEPENDENCIES
   github-pages
   html-proofer (~> 3.0)
   jekyll
-  jekyll-feed
   jekyll-postcss
   jekyll-seo-tag
-  jekyll-sitemap
   jekyll-theme-hacker!
   rubocop (~> 0.50)
   w3c_validators (~> 1.3)
