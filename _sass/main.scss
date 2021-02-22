@@ -1,4 +1,13 @@
-main {
-    position: relative;
-    min-height: 100vh;
+div.to-be-continued {
+  background-image: url(/assets/images/tobecontinued.png)
+}
+
+p {
+  margin: 1em 0;
+}
+
+a, .link-styled {
+  color: #009fff;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-decoration: underline;
 }

@@ -5,10 +5,16 @@ layout: default
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
+<p class="view my-6">by {{ page.author | default: site.author }}</p>
 
 {{content}}
 
+<div class="w-2/4 h-32 mx-auto my-6 flex items-center">
+  <img src="/assets/images/tobecontinued.png">
+</div>
+
 {% if page.tags %}
+<div class="my-2 center">
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+<div>
 {% endif %}
