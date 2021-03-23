@@ -8530,7 +8530,9 @@ div.to-be-continued { background-image: url(/assets/images/tobecontinued.png); }
 
 p { margin: 1em 0; }
 
-a, .link-styled { color: #009fff; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); text-decoration: underline; }
+.link-styled { color: #009fff; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); text-decoration: underline; }
+
+.to-be-continued { background-image: url(/assets/images/tobecontinued.png); background-repeat: no-repeat; background-size: cover; background-position: center; }
 
 nav { width: 100vw; background: #171717; height: 50px; text-align: center; }
 
